@@ -1,0 +1,21 @@
+{
+    "name": "webgl-ripple-grid",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "An interactive ripple grid built with Gera WebGL.",
+    "scripts": {
+        "start": "vite --host 127.0.0.1 --port 8080 --strictPort",
+        "build": "vite build --base=./",
+        "preview": "vite preview --host 127.0.0.1 --port 8080 --strictPort"
+    },
+    "dependencies": {
+        "gerawebgl": "0.3.2-dev.20261003193103"
+    },
+    "devDependencies": {
+        "vite": "8.3.1"
+    },
+    "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+    }
+}
